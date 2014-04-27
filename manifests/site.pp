@@ -63,6 +63,25 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
+  # my modules
+  include bash
+  include bash::completion
+  include iterm2::stable
+  include wget
+  include onepassword
+  include dropbox
+  include daisy_disk
+  include caffeine
+
+  include java
+  include clojure
+  
+  # my classes
+  class { 'intellij':
+    edition => 'ultimate',
+      version => '12.1.4'
+  }
+
   # node versions
   include nodejs::v0_6
   include nodejs::v0_8
