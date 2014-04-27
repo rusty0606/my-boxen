@@ -60,10 +60,10 @@ github "xquartz",     "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 github "iterm2"       "1.0.9"
-github "java",        "1.5.0"
+github "java"         "1.5.0"
 github "intellij"     "1.5.1"
 github "wget"         "1.0.1"
-github "onepassword   "1.1.0"
+github "onepassword"  "1.1.0"
 github "dropbox"      "1.2.0"
 github "daisy_disk"   "1.0.1"
 github "clojure"      "1.2.0"
