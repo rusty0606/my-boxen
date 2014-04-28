@@ -79,7 +79,7 @@ node default {
   # my classes
   class { 'intellij':
     edition => 'ultimate',
-      version => '12.1.4'
+      version => '13.1.2'
   }
 
   # node versions
